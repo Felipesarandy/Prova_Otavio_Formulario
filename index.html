@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="Teste">
+        <div id="Info_Pessoal">
+            <h3>Aluno: Felipe Sarandy Magalhães</h3>
+            <ul>
+                <strong>
+                    <li>Turma: CC1Mb</li>
+                    <li>Período: 1º</li>
+                    <li>Data: 05/06/2024</li>
+                </strong>
+            </ul>
+        </div>
+        <form id="form">
+            <table>
+                <tr>
+                    <td class="td"><label for="nome"><strong>Nome:</strong></label></td>
+                    <td class="td"><input type="text" id="nome" name="nome" required></td>
+                </tr>
+                <tr>
+                    <td class="td"><label for="matricula"><strong>Matrícula:</strong></label></td>
+                    <td class="td"><input type="text" id="matricula" name="matricula" required></td>
+                </tr>
+                <tr>
+                    <td class="td"><label for="nota1"><strong>Nota 1:</strong></label></td>
+                    <td class="td"><input type="number" step="0.01" id="nota1" name="nota1" required></td>
+                </tr>
+                <tr>
+                    <td class="td"><label for="nota2"><strong>Nota 2:</strong></label></td>
+                    <td class="td"><input type="number" step="0.01" id="nota2" name="nota2" required></td>
+                </tr>
+            </table>
+            <div id="button-enviar">
+                <button type="submit" id="enviar">Enviar</button>
+            </div>
+        </form>
+        
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Matrícula</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Média</th>
+                    <th>Situação</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
